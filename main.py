@@ -149,4 +149,9 @@ def graficar(ticker):
 
 # Ejecutar el programa
 if __name__ == "__main__":
+<<<<<<< HEAD
     menu_principal()
+=======
+    menu_principal()
+
+>>>>>>> 90043efb74986ceaac6b22b6bfb861d4ff7284f2
