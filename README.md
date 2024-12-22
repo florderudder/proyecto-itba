@@ -16,9 +16,9 @@ Este repositorio contiene el código fuente de un proyecto que consulta datos fi
 
 - **`README.md`**: Este archivo, que proporciona una descripción general del proyecto, cómo instalarlo, y cómo usarlo.
 
-- **`informe_funcionalidad_y_diseño.pdf`**: Un documento PDF con el informe detallado que describe la funcionalidad, el diseño y la arquitectura del programa, junto con los detalles técnicos de implementación.
+- **`informe.md`**: Un documento PDF con el informe detallado que describe la funcionalidad, el diseño y la arquitectura del programa, junto con los detalles técnicos de implementación.
 
-Si deseas conocer más sobre el diseño y las decisiones técnicas detrás de este proyecto, consulta el archivo **`informe_funcionalidad_y_diseño.pdf`**.
+Si deseas conocer más sobre el diseño y las decisiones técnicas detrás de este proyecto, consulta el archivo **`informe.md`**.
 
 ## Instrucciones de Instalación del Proyecto
 A continuación, se detallan los pasos para instalar y ejecutar el proyecto en un entorno local.

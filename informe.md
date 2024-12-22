@@ -27,12 +27,15 @@ La aplicación cuenta con un menú principal que permite al usuario elegir entre
 El código se organiza en funciones para facilitar su comprensión y mantenimiento. Las principales funciones son las siguientes:
 
 - **`menu_principal()`**: Muestra el menú principal y llama a las funciones correspondientes según la opción seleccionada por el usuario.
+- **`validar_fecha()`**: Función para validar que las fechas proporcionadas por el usuario sean correctas en formato YYYY-MM-DD.
 - **`actualizar_datos()`**: Solicita el ticker y las fechas, consulta la API para obtener los datos y, si los datos son válidos, los guarda en la base de datos.
 - **`tomar_datos_api()`**: Realiza la consulta a la API usando el ticker y las fechas proporcionadas. Si la respuesta es exitosa, devuelve los datos obtenidos.
 - **`guardar_database()`**: Almacena los datos obtenidos en una base de datos SQLite, creando una tabla si no existe.
+- **`informacion_existe()`**: Verifica si la información solicitada ya está en la base de datos.
 - **`visualizar_datos()`**: Muestra el menú de visualización y llama a las funciones correspondientes para mostrar el resumen o graficar un ticker específico.
 - **`resumen()`**: Muestra un resumen de los tickers almacenados en la base de datos junto con el rango de fechas de cada uno.
 - **`graficar()`**: Genera un gráfico de los precios de cierre de un ticker específico utilizando Matplotlib.
+- **`calcular_rsi()`**: Calcula el Relative Strength Index (RSI) de los precios de cierre de un ticker.
 
 ### Estructura de la Base de Datos
 La base de datos utilizada es SQLite y contiene una tabla denominada `stocks` con la siguiente estructura:
@@ -49,7 +52,7 @@ La base de datos utilizada es SQLite y contiene una tabla denominada `stocks` co
 El programa maneja varios tipos de errores:
 - Si la API no responde o devuelve un código de error, se informa al usuario sobre el problema.
 - Si no se encuentran datos para el ticker y el rango de fechas especificados, el programa muestra un mensaje informando la falta de datos.
-
+- Si ocurre un error al guardar los datos en la base de datos, se captura la excepción y se informa al usuario.
 
 ## 4. Instrucciones de Instalación del Proyecto
 
