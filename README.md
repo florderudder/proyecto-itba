@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# proyecto-itba
-
-Proyecto Final 
-
-```
-code
-```
-=======
 # Proyecto Final Certificación Profesional Python ITBA | Diciembre 2024
 
 ## Objetivo
@@ -89,5 +80,3 @@ Una vez que termine de trabajar con el proyecto, desactive el entorno con el sig
 conda deactivate
 ```
 Esto cerrará el entorno y lo devolverá a su entorno base o al sistema global.
-
->>>>>>> 90043efb74986ceaac6b22b6bfb861d4ff7284f2
